@@ -1,7 +1,4 @@
 param cosmosName string = '${resourceGroup().location}-cosmos'
-param siteName string = '${resourceGroup().location}-site'
-param planName string  = '${siteName}-plan'
-param planSku string = 'F1'
 param location string = resourceGroup().location
 
 // Cosmos DB アカウント（Core SQL）を作成
